@@ -1,2 +1,3 @@
 # kedsz.github.io
-Portfolio
+
+This repository hosts my portfolio
