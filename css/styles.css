@@ -3577,19 +3577,24 @@ fieldset:disabled .btn {
   transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
-.btn-outline-social[href*="linkedin.com"]:hover {
+.btn-outline-social[href*="linkedin.com"] {
   color: #0A66C2;
   border-color: #0A66C2;
 }
 
-.btn-outline-social[href*="github.com"]:hover {
+.btn-outline-social[href*="github.com"] {
   color: #6e5494;
   border-color: #6e5494;
 }
 
-.btn-outline-social[href^="mailto"]:hover {
-  color: #D44638; /* Gmail red */
+.btn-outline-social[href^="mailto"] {
+  color: #D44638;
   border-color: #D44638;
+}
+
+.btn-outline-social:hover {
+  color: #f8f9fa;
+  border-color: #f8f9fa;
 }
 
 .btn-outline-dark {
