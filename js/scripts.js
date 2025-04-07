@@ -49,3 +49,11 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+document.querySelectorAll('.modal').forEach(modal => {
+    modal.addEventListener('hide.bs.modal', () => {
+        if (document.activeElement) {
+            document.activeElement.blur();
+        }
+    });
+});
