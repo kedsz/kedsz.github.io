@@ -3588,8 +3588,8 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-social[href^="mailto"] {
-  color: #D44638;
-  border-color: #D44638;
+  color: #34A853;
+  border-color: #34A853;
 }
 
 .btn-outline-social:hover {

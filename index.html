@@ -7,7 +7,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Keith D'Souza</title>
-    <link rel="icon" type="image/x-icon" href="assets/photo.ico" />
+    <link rel="icon" type="image/x-icon" href="assets/profile.ico" />
     <!-- Font Awesome icons -->
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -44,7 +44,7 @@
     <header class="masthead bg-primary text-white text-center" id="main">
         <div class="container d-flex align-items-center flex-column">
             <!-- Masthead Avatar Image -->
-            <img class="masthead-avatar mb-5" src="assets/photo.png" alt="..." />
+            <img class="masthead-avatar mb-5" src="assets/profile.png" alt="..." />
             <!-- Masthead Heading -->
             <h1 class="masthead-heading text-uppercase mb-0">Keith D'Souza</h1>
             <!-- Icon Divider -->
@@ -133,7 +133,8 @@
                                 <i class="fas fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="assets/cybe.png" alt="..." />
+                        <!-- <img class="img-fluid" src="assets/cybe.png" alt="..." /> -->
+                        <canvas id="cybeCanvas" width="340" height="200"></canvas>
                         <div class="portfolio-item-subtitle text-center mt-2">
                             <p class="text-muted">PG Cybersecurity</p>
                         </div>
@@ -148,7 +149,8 @@
                                 <i class="fas fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="assets/cse.png" alt="..." />
+                        <!-- <img class="img-fluid" src="assets/cse.png" alt="..." /> -->
+                        <canvas id="cseCanvas" width="340" height="200"></canvas>
                         <div class="portfolio-item-subtitle text-center mt-2">
                             <p class="text-muted">BEng Computer Science</p>
                         </div>
@@ -205,7 +207,7 @@
         </div>
     </section>
 
-  
+
     <!-- About Section -->
     <section class="page-section bg-primary text-white mb-0" id="about">
         <div class="container">
@@ -421,6 +423,25 @@
     
     <!-- Bootstrap core JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- LottieFiles -->
+    <!-- <script src="https://unpkg.com/@lottiefiles/dotlottie-web@latest"></script> -->
+    <script type="module">
+        import { DotLottie } from "https://cdn.jsdelivr.net/npm/@lottiefiles/dotlottie-web/+esm";
+  
+        new DotLottie({
+          autoplay: true,
+          loop: true,
+          canvas: document.getElementById("cybeCanvas"),
+          src: "https://lottie.host/423acd2a-ec9d-453b-803f-ce915be9e67a/kXMIwLFeYf.lottie"
+        });
+
+        new DotLottie({
+          autoplay: true,
+          loop: true,
+          canvas: document.getElementById("cseCanvas"),
+          src: "https://lottie.host/812c11d0-c244-4d80-bc5f-ba875c0a1b70/vhnjy4HejR.lottie"
+        });
+    </script>
     <!-- Core theme JS -->
     <script src="js/scripts.js"></script>
     <!-- <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script> -->
