@@ -17,6 +17,16 @@
     <link href="css/styles.css" rel="stylesheet" />
 </head>
 
+<!-- Google tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QZJGDTVT5J"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QZJGDTVT5J');
+</script>
+
 <body id="page-top">
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
@@ -134,7 +144,7 @@
                             </div>
                         </div>
                         <!-- <img class="img-fluid" src="assets/cybe.png" alt="..." /> -->
-                        <canvas id="cybeCanvas" width="340" height="200"></canvas>
+                        <canvas class="img-fluid" id="cybeCanvas"></canvas>
                         <div class="portfolio-item-subtitle text-center mt-2">
                             <p class="text-muted">PG Cybersecurity</p>
                         </div>
@@ -150,7 +160,7 @@
                             </div>
                         </div>
                         <!-- <img class="img-fluid" src="assets/cse.png" alt="..." /> -->
-                        <canvas id="cseCanvas" width="340" height="200"></canvas>
+                        <canvas class="img-fluid" id="cseCanvas"></canvas>
                         <div class="portfolio-item-subtitle text-center mt-2">
                             <p class="text-muted">BEng Computer Science</p>
                         </div>
